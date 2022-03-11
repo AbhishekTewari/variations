@@ -1,0 +1,67 @@
+
+.pv_attr_lists{
+
+  list-style-type: none;
+ 
+  margin: 0;
+ 
+ }
+ 
+ .pv_attr_lists label {
+ 
+  color: #2d2b2b;
+ 
+  font-weight: bold;
+ 
+  text-transform: capitalize;
+ 
+  width: 25%;
+ 
+  max-width:100px;
+ 
+ }
+ 
+ .pv_attr_lists li{
+ 
+  flex-wrap: wrap;
+ 
+  margin-bottom: 0.5rem;
+ 
+  display: flex;
+ 
+ }
+
+ .pv_display_single_page{
+
+  list-style: none;
+ 
+  display: flex;
+ 
+  font-size: 13px;
+ 
+  width: 100%;
+ 
+ }
+ 
+ .pv_display_single_page li{
+ 
+  padding: 0 11px 0 0;
+ 
+ }
+
+ .pv_attr_available_attr {
+   margin-left: 10px;
+   background-color: #cccccc !important ;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ .variations{
+   display: none !important;
+ }
+
+
+ .pv_display_single_page .active {
+   background-color: #e7e7e7 !important;
+   color: black !important;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) !important;
+ }
